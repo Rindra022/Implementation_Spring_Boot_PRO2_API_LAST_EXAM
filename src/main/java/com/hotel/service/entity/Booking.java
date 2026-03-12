@@ -13,6 +13,15 @@ public class Booking {
 
     public Booking(){}
 
+    public Booking(String clientName, String phone, String email, int roomNumber, String description, LocalDate bookingDate) {
+        this.clientName = clientName;
+        this.phone = phone;
+        this.email = email;
+        this.roomNumber = roomNumber;
+        this.description = description;
+        this.bookingDate = bookingDate;
+    }
+
     public String getClientName() {
         return clientName;
     }
